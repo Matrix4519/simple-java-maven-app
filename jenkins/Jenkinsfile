@@ -26,10 +26,5 @@ pipeline {
                 echo 'Job Complete!'
             }
         }
-        stage('End') {
-            steps {
-                echo 'New Commits Spotted!'
-            }
-        }
     }
 }
